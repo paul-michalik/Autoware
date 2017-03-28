@@ -4,6 +4,6 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.box_version = "20170313.0.7"
   config.vm.provision "shell",
-	path: "autoware_up.sh"
-  config.vm.synced_folder "../Autoware" "~/Autoware"
+	path: "create_environment.sh"
+  config.vm.synced_folder "../../Autoware", "/home/vagrant/Autoware"
 end
