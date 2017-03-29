@@ -9,7 +9,7 @@
 #include <vector>
 #include <map>
 #include <string>
-#include "Math.h"
+#include "vector_map_math.h"
 
 #include <vector_map/vector_map.h>
 

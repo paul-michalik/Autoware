@@ -1,8 +1,8 @@
-#!/bin/bash
+﻿#!/bin/bash
 
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
 
 apt-get update
 
@@ -33,5 +33,6 @@ apt-get install -y \
 	libarmadillo-dev \
 	libpcap-dev \
 	gksu \
-	libgl1-mesa-dev
-	
+	libgl1-mesa-dev \
+	libglew-dev \
+ git
