@@ -5,5 +5,5 @@ Vagrant.configure("2") do |config|
     config.vm.box_version = "20170313.0.7"
     config.vm.provision "shell",
         path: "create_environment.sh"
-    config.vm.synced_folder "../../Autoware", "/home/vagrant/Autoware"
+    config.vm.synced_folder "../../Autoware", "/Autoware"
 end
