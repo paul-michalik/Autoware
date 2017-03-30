@@ -73,11 +73,11 @@ https://github.com/ethz-asl/grid_map
 Initialize ros (if required):
 ```
 $ sudo rosdep init
-$ rosdep update$ 
+$ rosdep update
 ```
 Prepare current shell for using ros tools. This will modify environment variables and prepare the ros tools for usage:
 ```
-source /opt/ros/indigo/setup.sh
+$ source /opt/ros/indigo/setup.sh
 ```
 In the same shell invoke:
 ```
