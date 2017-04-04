@@ -35,4 +35,5 @@ apt-get install -y \
 	gksu \
 	libgl1-mesa-dev \
 	libglew-dev \
- git
+	git
+	
